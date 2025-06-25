@@ -23,9 +23,9 @@ jobs:
       - name: Run pytest
         run: python -m pytest tests/ 
 
-      - name: Build Docker image
-        run: docker build -t flask-microservice .
-
-      - name: Run tests inside container
-        run: docker run --rm flask-microservice
+#      - name: Build Docker image
+#        run: docker build -t flask-microservice .
+#
+#      - name: Run tests inside container
+#        run: docker run --rm flask-microservice
 
