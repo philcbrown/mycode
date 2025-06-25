@@ -10,5 +10,5 @@ COPY app.py app.py
 # Add current directory to PYTHONPATH so app.py can be imported in tests
 ENV PYTHONPATH=/app
 
-CMD ["python app.py"]
+CMD ["python /app/app.py"]
 
